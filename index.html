@@ -22,7 +22,7 @@
 		<h1>SERVERS</h1>
 		<h2>Quake 1 (NetQuake)</h2>
 		<h3>
-			<strong>quake.csh.rit.edu:26000</strong>
+			quake.csh.rit.edu:26000
 		</h3>
 		<p>
 			Mostly vanilla Quake 1 server using the NetQuake protocol on QSS-M software, running a few game modes:
@@ -34,7 +34,7 @@
 			Requires Threewave CTF for Capture the Flag, which can be downloaded from <a href="https://www.moddb.com/mods/threewave-capture/downloads/threewave-ctf-for-quake-full-pack">ModDB</a>.
 		</p>
 		<p>
-			Frag limit 20 and no time limit. Runs vanilla maps for DM/TDM and base Threewave maps for CTF. Will support spectator mode soon.
+			Best for local play at RIT. Frag limit 20 and no time limit. Runs vanilla maps for DM/TDM and base Threewave maps for CTF. Will support spectator mode soon.
 		</p>
 		<h3>
 			Recommended clients:
@@ -46,11 +46,30 @@
 				<li><a href="https://www.quakeone.com/markv/">Mark V</a>, an older port with a software renderer for Windows, Mac, and Linux</li>
 			</ul>
 		</p>
+		<h2>Quake 1 (QuakeWorld)</h2>
+		<h3>
+			quake.csh.rit.edu:27500
+		</h3>
+		<p>
+			Work-in-progress Quake 1 server using the QuakeWorld protocol on MVDVSV software, running Deathmatch only at the moment.
+		</p>
+		<p>
+			Much better netcode for long-distance play, but also features different physics compared to NetQuake. Frag limit 20 and no time limit. Runs vanilla maps. Currently doesn't have CTF, an MotD, or increased axe damage from the NetQuake server, but these will be added soon.
+		</p>
+		<h3>
+			Recommended clients:
+		</h3>
+		<p>
+			<ul>
+				<li><a href="https://qssm.quakeone.com/">ezQuake</a>, the leading QuakeWorld port for Windows, Mac, and Linux</li>
+				<li>ezQuake is the only client worth using for QuakeWorld</li>
+				<li>If you plan on playing other QuakeWorld servers, nQuake will help you jumpstart your configuration, but it isn't required for Quake @ CSH</li>
+			</ul>
+		</p>
 		<h2>Future</h2>
 		<p>
 			These aren't set up yet, but are planned for the near future:
 			<ul>
-				<li>QuakeWorld</li>
 				<li>Quake Team Fortress</li>
 				<li>Quake 2</li>
 				<li>Quake 3</li>
@@ -59,7 +78,7 @@
 		</p>
 	</div>
 	<div class="bottombox">
-		© 2025 Nick Gilbert. Web content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license">CC BY-NC-SA 4.0</a>. View the source code on <a href="https://github.com/TheParadoxBox/quake-pubsite">GitHub</a>.
+		© 2025 Nick Gilbert. Web content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license">CC BY-NC-SA 4.0</a>. View the source code on <a href="https://github.com/TheParadoxBox/quake-pubsite">GitHub</a>. Hosted on CSH's Proxmox cluster; thank you RTPs for making Proxstar so easy to use!
 	</div>
 </body>
 </html>
